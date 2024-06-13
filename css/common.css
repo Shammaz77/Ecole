@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+a{
+	text-decoration: none !important;
+}
+ul li{
+	list-style: none;
+}
+img{
+	width: 100%;
+}
+.container-main{
+  width: 70%;
+  margin: auto;
+}
+.primary-color{
+	color: #FFF2D4;
+}
+.secondary-color{
+	color: #D19C2A;
+}
+.secondary-bg{
+	background-color: #D19C2A;
+}
+.primary-bg{
+	background: #FFF2D4;
+} 
+.item-nav ul{
+	display: flex;
+	margin-bottom: 0px !important;
+}
+.item-nav ul li{
+	padding: 0px 25px;
+	font-size: 17px;
+	font-weight: 500;
+}
+.navbar-main{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 0px 18px 0px;
+}
+.item-nav ul li a{
+	color: #000 !important;
+}
+
+.bg-main{
+	background-color: #fffef2;
+	min-height: 100vh;
+	position: relative;
+	z-index: 5;
+}
+.testimonial-header{
+
+}
+.estimonials-heading{
+
+}
+.testimonial-head{
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,321 @@
+.hero-heading{
+	font-weight: 600;
+	line-height: 1.2;
+	font-size: 50px;
+	z-index: 2;
+	position: sticky;
+}
+.hero-sub-heading{
+	width: 65%;
+	z-index: 2;
+	position: sticky;
+}
+.hero .row{
+	display: flex;
+	align-items: center;
+}
+.more-info-btn{
+	color: #fff !important;
+	border-radius: 8px !important;
+	padding: 8px 12px !important;
+	font-weight: 500 !important;
+	z-index: 2;
+	position: sticky;
+}
+.img-bg-inner{
+	position: absolute;
+	z-index: 1;
+	top: -20px;
+	width: 70%;
+}
+.hero{
+	margin-top: 50px;
+}
+.right-yellow{
+	width: 80%;
+	display: table;
+	margin-left: auto;
+	position: relative;
+}
+.frame{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	width: 400px;
+
+}
+.bg-shape{
+	position: absolute;
+	width: 50%;
+	z-index: -2;
+	top: -40px;
+}
+.sliderss{
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.slider-box{
+	background-color: #ece5d5;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: #0000001a 0px 4px 12px;
+}
+.iconn{
+	width: 70px;
+}
+.aminities-section{
+	background-color: #FCF7E3;
+	padding: 50px 0px;
+	position: relative;
+	/* animation: hero-shape-2 1s linear 5s infinite alternate; */
+}
+.amin-txt{
+	padding-bottom: 30px;
+}
+.bg-imgg{
+	/* position: absolute;
+	width: 40% 	;
+	top: -200px;
+	z-index: 4;
+	right: 0;
+	rotate: 17deg; */
+	margin-top: -120px 	;
+}
+.counts{
+	background-color: #F9F2E1;
+	padding-bottom: 80px;
+}
+.count-section{
+	padding: 20px;
+	border-radius: 10px 10px 50px 10px;
+	background-color: #D19C2A;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	margin: 80px auto 40px auto;
+}
+.number{
+	font-size: 50px;
+	text-align: center;
+}
+.count-dv{
+	color: #F9F2E1;
+}
+.txt-sub-count{
+	font-size: 18px;
+}
+.testimonial-header{
+	padding: 20px 20px;
+	border-radius: 15px;
+}
+.user-img{
+	width: 60px;
+	padding-right: 20px;
+}
+.testimonial-head{
+	padding-bottom: 15px;
+}
+.txt-user-data{
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.user-details{
+	display: flex;
+	align-items: center;
+}
+.sub-testi{
+	padding-top: 20px;
+}
+.y{
+	background-color: #e7d9b9;
+}
+.ym{
+	background-color: #dbd7cf;
+}
+/* footer  */
+footer{
+	background-color: black;
+	padding: 40px 0px;
+}
+.footer-inner{
+
+}
+.sub-txt-footer{
+	color: #dddddd;
+	font-weight: 300;
+	font-size: 13px;
+}
+.footer-logo{
+	width: 200px;
+	margin-bottom: 20px;
+}
+.footer-link a{
+	color: #dddddd !important;
+}
+.head-footer{
+	color: #fff;
+	padding-bottom: 25px;
+}
+.footer-link{
+	margin-bottom: 11px;
+	font-weight: 300;
+}
+.head-footer-sub{
+	color: #dddddd;
+	padding-bottom: 5px;
+}
+.icons a i{
+	color: #fff;
+	font-size: 24px;
+	margin-right: 15px;
+}
+.icons{
+	margin-bottom: 9px;
+}
+.txt-copy{
+	color: #dddddd;
+	text-align: center;
+}
+.copy{
+	padding-top: 25px;
+}
+.vedio-section{
+	margin-bottom: -5px;
+}
+video {
+	width: 100%;
+	height: 450px;
+	object-fit: cover; /* Scales video to fit container, maintaining aspect ratio */
+}
+.rating i{
+	font-size: 18px;
+	color: #D19C2A;
+}
+.news-box{
+
+}
+.news-image{
+
+}
+.news-updates{
+	background-color: #f7ecd3;
+	padding: 50px 0px;
+}
+.time-news{
+	display: flex;
+	align-items: center;
+	padding: 10px 0px 5px 0px;
+}
+.time-txt-news{
+	margin-bottom: 0px !important;
+	padding-left: 10px;
+}
+.news-heading{
+	margin: 0;
+	font-size: 19px;
+	padding-bottom: 10px;
+}
+.news-sub-heading{
+	color: #978e8e;
+}
+.ri-heart-line{
+	font-size: 18px;
+	cursor: pointer;
+}
+.btn-readmore-news{
+	border-radius: 7px !important;
+	padding: 8px 15px !important;
+	background-color: #b89c20;
+	color: #fff;
+}
+.btn-like{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.btn-readmore-news:hover{
+	color: #fff !important;
+}
+/* ABOUT  PAGE  */
+.heading-page-about{
+	border-bottom: 3px solid #D19C2A;
+	width: max-content;
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+}
+.heading-about{
+	margin-top: 100px;
+	font-weight: 600;
+}
+.heading-about ul li{
+	list-style: circle !important;
+}
+.mission-dv{
+	margin-left: 30px !important;
+}
+.about-img-g{
+	width: 75% !important;
+	display: table !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.about-pg{
+	margin-top: 50px !important;
+	display: flex;
+	align-items: center;
+}
+.about-dv{
+	width: 100%;
+}
+.vision-txt-2{
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
