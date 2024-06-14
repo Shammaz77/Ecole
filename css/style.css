@@ -42,7 +42,6 @@
 	top: 150px;
 	left: 100px;
 	width: 400px;
-
 }
 .bg-shape{
 	position: absolute;
@@ -272,16 +271,44 @@ video {
 .vision-txt-2{
 	font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
+.chairman-dv{
+	margin-top: 50px;
+}
+.social-media-txt{
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 50px 0px;
+}
+.media-dv{
+	margin-bottom: 20px;
+}
+ .ecole-testi i{
+	font-size: 25px;
+	background-color: #D19C2A;
+	padding: 10px;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+ }
+.testimonial-head{
+	padding-top: 70px;
+}
+.news-box-details{
+	margin-bottom: 40px;
+}
+.newww{
+	margin-top: 50px;
+}
+.newww .btn-like{
+	margin-top: 30px;
+}
+.media-row{
+	margin-top: 50px;
+}
+.botmm{
+	margin-bottom: 50px;
+}
 
 
 
