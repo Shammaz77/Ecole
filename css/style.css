@@ -228,7 +228,7 @@ video {
 	padding: 8px 15px !important;
 	background-color: #b89c20;
 	color: #fff;
-}
+} l
 .btn-like{
 	display: flex;
 	align-items: center;
@@ -288,8 +288,7 @@ video {
 	background-color: #D19C2A;
 	padding: 10px;
 	border-radius: 50%;
-	color: #fff;
-	cursor: pointer;
+	color: #fff; 
  }
 .testimonial-head{
 	padding-top: 70px;
@@ -309,6 +308,20 @@ video {
 .botmm{
 	margin-bottom: 50px;
 }
+.heading-about-sub{
+	padding: 30px 0px 0px 0px;
+}
+.btm{
+	margin-bottom: 50px;
+}
+.btn-like{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.chairman-dv {
+	margin-top: 50px;
+}
 
 
 
@@ -319,19 +332,109 @@ video {
 
 
 
+  
 
 
 
 
 
-
-
-
-
-
-
-
-
+/* responsive  */
+@media (max-width:1600px) {
+	.container-main{
+		width: 85%;
+		margin: auto;
+	}
+	.logo-main{
+		width: 200px;
+	}
+}
+@media (max-width:1400px) {
+	.logo-main{
+		width: 200px;
+	}
+	.item-nav ul li {
+    padding: 0px 20px;
+    font-size: 16px;
+		}
+}
+@media (max-width:1200px) {
+	.about-pg {
+    margin-top: 50px !important;
+    display: block;
+	}	
+}
+@media (max-width:1100px) {
+	.item-nav ul li {
+		font-size: 15px;
+	}
+	.logo-main {
+		width: 180px;
+	}
+	.container-main {
+		width: 90%;
+	}
+}
+@media (max-width:991px) {
+	.item-nav ul li{
+		display: none;
+	}
+	.item-nav i{
+		display: block;
+		font-size: 24px;
+	}
+	.about-img-g {
+    width: 40% !important;
+	}
+}
+@media (max-width:800px) {
+	.media-row {
+		margin-top: 13px;
+	}
+	.about-img-g {
+    width: 45% !important;
+	}
+}
+@media (max-width:600px) {
+	.logo-main {
+		width: 145px;
+	}
+	.heading-page-about {
+		margin-top: 4px !important;
+    font-size: 18px;
+	}
+	.botmm {
+    margin-bottom: 32px;
+	}
+	.item-nav i {
+		display: block;
+		font-size: 22px;
+	}
+	.footer-logo {
+    width: 170px;
+    margin-bottom: 20px;
+	}
+	.sub-txt-footer {
+    padding-bottom: 10px;
+	}
+	.chairman-dv {
+    margin-top: 18px;
+	}
+	.vision-txt-2 {
+    font-size: 14px;
+    text-align: justify;
+	}
+	.heading-about-sub {
+    padding: 17px 0px 0px 0px;
+	}
+	.about-img-g {
+    width: 60% !important;
+		padding-bottom: 30px;
+	}
+	.heading-about {
+    margin-top: 0px;
+    font-weight: 500;
+	}
+}
 
 
 

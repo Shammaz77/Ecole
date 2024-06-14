@@ -63,8 +63,72 @@ img{
 .testimonial-head{
 	text-transform: uppercase;
 }
-
-
+/* sidebar code */
+.sidebar{
+	width: 90%;
+	min-width: 270px;
+	max-width: 320px;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	overflow:auto !important;
+	right: -320px;
+	z-index: 20;
+	transition: 0.2s ease;
+	background: #dfe0ce;
+	color: #000;
+}
+.sidebar .closse i{
+	font-size: 28px;
+}
+.open-cart{
+	right: 0px !important;
+}
+.open-cartt{
+	display:none;
+}
+.open-cart:before{
+	content: '';
+	position: fixed;
+	top: 0px;
+	height: 70vh;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	pointer-events: none;
+	z-index: -1;
+}
+.navbar-sidebar {
+	padding: 25px;
+	margin-top: 45px;
+}
+.navbar-sidebar ul li{
+	list-style: none;
+	background: #F9F9F9;
+	padding: 8px 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	font-weight: 500;
+}
+.navbar-sidebar ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.navbar-sidebar ul{
+    padding: 0;
+}
+.sidebar .closse{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: #000000;
+}
+.sidebar .active {
+	color: #272B73;
+}
+.item-nav i{
+	display: none;
+}
 
 
 
