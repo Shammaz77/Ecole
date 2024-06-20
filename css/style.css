@@ -138,9 +138,9 @@ footer{
 	background-color: black;
 	padding: 40px 0px;
 }
-.footer-inner{
+/* .footer-inner{
 
-}
+} */
 .sub-txt-footer{
 	color: #dddddd;
 	font-weight: 300;
@@ -192,12 +192,12 @@ video {
 	font-size: 18px;
 	color: #D19C2A;
 }
-.news-box{
+/* .news-box{
 
 }
 .news-image{
 
-}
+} */
 .news-updates{
 	background-color: #f7ecd3;
 	padding: 50px 0px;
@@ -322,6 +322,75 @@ video {
 .chairman-dv {
 	margin-top: 50px;
 }
+.grey-bg{
+	background-color: #f6f6e9;
+}
+.special-programe{
+	margin-bottom: 30px;
+}
+.bg-main-special{
+	background-image: url('../images/texture.jpg');
+	min-height: 100vh;
+	position: relative;
+	z-index: 5;
+	padding-bottom: 50px;
+}
+.special-programe-row{
+	padding-top: 140px;
+}
+.special-img-dv{
+	width: 80%;
+}
+.logo-programme-w{
+	width: 100px;
+	margin-bottom: 18px;
+}
+.logo-programme{
+	width: 200px;
+	margin: 20px 0px;
+}
+.programme-sub-head-sub{
+	font-size: 16px;
+	width: 60%;
+	padding-bottom: 0px;
+}
+.programme-sub-head{
+	font-size: 21px;
+	width: 50%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+}
+.programme-head{
+	padding-top: 5px;
+}
+.special-programe-row .row{
+	padding-bottom: 50px;
+}
+.lang{
+	width: 250px;
+}
+.txt-sub-programme{
+	margin-top: 0px !important;
+}
+.list-txt-programme{
+	font-size: 17px;
+	margin-bottom: 0px !important;
+	padding-bottom: 4px;
+}
+.list-txt-programme i{
+	margin-right: 15px;
+}
+.lists{
+	margin-top: 15px;
+}
+.topp{
+	margin-top: 35px !important;
+}
+.sc-imgg{
+	width: 290px;
+	margin-top: 12px;
+}
 
 
 
@@ -332,7 +401,6 @@ video {
 
 
 
-  
 
 
 
@@ -398,6 +466,10 @@ video {
 	.logo-main {
 		width: 145px;
 	}
+	.bg-shape {
+    width: 100%;
+    top: -14px;
+	}
 	.heading-page-about {
 		margin-top: 4px !important;
     font-size: 18px;
@@ -405,7 +477,7 @@ video {
 	.botmm {
     margin-bottom: 32px;
 	}
-	.item-nav i {
+	.item-nav i {																																													
 		display: block;
 		font-size: 22px;
 	}
