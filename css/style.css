@@ -268,8 +268,12 @@ video {
 .about-dv{
 	width: 100%;
 }
+.heading-about-sub p{
+	text-align: justify;
+}
 .vision-txt-2{
 	font-size: 15px;
+	text-align: justify;
 }
 .chairman-dv{
 	margin-top: 50px;
@@ -506,10 +510,49 @@ video {
     margin-top: 0px;
     font-weight: 500;
 	}
+	.programme-sub-head-sub {
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: justify;
+	}
+	.programme-sub-head {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 0px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+	}
+	.programme-head {
+    padding-top: 0px;
+	}
+	.special-programe-row {
+    padding-top: 5px;
+	}
+	.special-programe-row .row {
+    padding-bottom: 20px;
+	}
+	.special-img-dv {
+    width: 80%;
+    padding-top: 26px;
+	}
+	.chairman-d{
+		margin-top: 14px;
+	}
 }
-
-
-
+@media (max-width:450px) {
+	.logo-programme {
+		width: 170px;
+		margin: 20px 0px;
+	}
+	.chairman-dv {
+		margin-top: 5px;
+	}
+	.acadamics-pg{
+		margin-top: 20px;
+	}
+}
 
 
 
