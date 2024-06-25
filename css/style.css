@@ -299,7 +299,7 @@ video {
 	color: #fff; 
  }
 .testimonial-head{
-	padding-top: 70px;
+	padding-top: 20px;
 }
 .news-box-details{
 	margin-bottom: 40px;
@@ -332,6 +332,7 @@ video {
 }
 .grey-bg{
 	background-color: #f6f6e9;
+	padding-bottom: 20px;
 }
 .special-programe{
 	margin-bottom: 30px;
@@ -404,6 +405,22 @@ video {
 	height: 60px;
 	margin-right: 15px;
 }
+.sp-programe-img{
+	width: calc(90% / 6); /* Set width based on number of logos */
+  height: auto; /* Maintain aspect ratio */
+	margin: 10px 10px;
+}
+.special-dv{
+	width: 100%;
+	display: flex;
+  flex-wrap: wrap;
+	/* justify-content: left; */
+}
+
+
+
+
+
 
 
 
